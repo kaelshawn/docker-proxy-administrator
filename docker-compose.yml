@@ -1,0 +1,12 @@
+version: '2'
+services:
+  proxy-administrator:
+    image: proxy-administrator:1.0.1
+    container_name: proxy-administrator
+    ports:
+      - '8006:32080'
+    restart: always
+    tty: true
+    volumes:
+      - ./logs:/etc/gpa/logs
+

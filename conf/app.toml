@@ -1,0 +1,9 @@
+[http]
+listen=":32080"
+
+[log]
+path="logs"
+debug=true
+stdprint=true
+error=true
+access=true
